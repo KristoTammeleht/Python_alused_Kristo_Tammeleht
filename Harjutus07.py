@@ -1,6 +1,5 @@
 #Kristo Tammeleht IT-21 16.02.22
 import math
-'''
 
 def nimi(nim,kl='ger'):
     if kl == 'est':
@@ -11,8 +10,7 @@ def nimi(nim,kl='ger'):
         print(nim,'tere saksa keeles')
     
 nimi('Kristo','')
-'''
-
+############################
 def kuupp(kulg):
     v = kulg**3
     return v
@@ -27,8 +25,7 @@ def kon(r,h):
 def sil(r,h):
     v = round(math.pi*r**2*h,2)
     return v
-
-
+##################################
 print('********** LEIAME RUUMALA **********')
 print('Vali kujund')
 print('1 Kuup')
