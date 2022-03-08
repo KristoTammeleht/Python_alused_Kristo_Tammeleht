@@ -1,3 +1,7 @@
+#Kristo Tammeleht
+
+
+#3.1
 '''
 fail = open("rebased.txt", encoding="UTF-8")
 
