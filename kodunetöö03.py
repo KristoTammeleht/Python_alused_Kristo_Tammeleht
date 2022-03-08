@@ -34,20 +34,43 @@ for rida in fail:
 
 fail.close()
 '''
-
-
-
-fail = input('lisa faili nimi:')
-fail = open(fail , encoding="UTF-8")
+#3.4
+'''
+nums =1
+lugu=1
+algfail = input('lisa faili nimi:')
+fail = open(algfail , encoding="UTF-8")
 num = 1
 for i in fail:
-
-    print (num, i)
+    print (str(num)+'.'+str(i),end='')
     num += 1
-
-
+    
+    
+print()
+fail = open(algfail , encoding="UTF-8")
+laul = int(input('Mis lugu tahad (numbrites):'))
+for  i in fail:
+    if lugu== laul:
+        print (str(nums)+'.'+str(i),end='')
+    nums += 1
+    lugu +=1
+  
 fail.close()
+'''
+'''
+#3.5
+jrk = 1
+fail = open('nimekiri.txt' , encoding="UTF-8")
+from datetime import * 
+kp = print(datetime.now().day)
 
+for i in fail:
+    if jrk == datetime.now().day:
+        print(i)
+    
+    jrk += 1
+    
+'''
 
 
 
